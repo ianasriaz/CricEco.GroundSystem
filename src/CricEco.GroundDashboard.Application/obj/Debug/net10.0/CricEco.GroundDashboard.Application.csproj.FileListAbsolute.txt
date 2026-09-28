@@ -1,0 +1,15 @@
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/obj/Debug/net10.0/CricEco.GroundDashboard.Application.csproj.AssemblyReference.cache
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/obj/Debug/net10.0/CricEco.GroundDashboard.Application.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/obj/Debug/net10.0/CricEco.GroundDashboard.Application.AssemblyInfoInputs.cache
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/obj/Debug/net10.0/CricEco.GroundDashboard.Application.AssemblyInfo.cs
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/obj/Debug/net10.0/CricEco.GroundDashboard.Application.csproj.CoreCompileInputs.cache
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/bin/Debug/net10.0/CricEco.GroundDashboard.Application.deps.json
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/bin/Debug/net10.0/CricEco.GroundDashboard.Application.dll
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/bin/Debug/net10.0/CricEco.GroundDashboard.Application.pdb
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/bin/Debug/net10.0/CricEco.GroundDashboard.Domain.dll
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/bin/Debug/net10.0/CricEco.GroundDashboard.Domain.pdb
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/obj/Debug/net10.0/CricEco..ACBF6938.Up2Date
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/obj/Debug/net10.0/CricEco.GroundDashboard.Application.dll
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/obj/Debug/net10.0/refint/CricEco.GroundDashboard.Application.dll
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/obj/Debug/net10.0/CricEco.GroundDashboard.Application.pdb
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/obj/Debug/net10.0/ref/CricEco.GroundDashboard.Application.dll

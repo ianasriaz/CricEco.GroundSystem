@@ -1,0 +1,17 @@
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/obj/Debug/net10.0/CricEco.GroundDashboard.Infrastructure.csproj.AssemblyReference.cache
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/obj/Debug/net10.0/CricEco.GroundDashboard.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/obj/Debug/net10.0/CricEco.GroundDashboard.Infrastructure.AssemblyInfoInputs.cache
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/obj/Debug/net10.0/CricEco.GroundDashboard.Infrastructure.AssemblyInfo.cs
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/obj/Debug/net10.0/CricEco.GroundDashboard.Infrastructure.csproj.CoreCompileInputs.cache
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/bin/Debug/net10.0/CricEco.GroundDashboard.Infrastructure.deps.json
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/bin/Debug/net10.0/CricEco.GroundDashboard.Infrastructure.dll
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/bin/Debug/net10.0/CricEco.GroundDashboard.Infrastructure.pdb
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/bin/Debug/net10.0/CricEco.GroundDashboard.Application.dll
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/bin/Debug/net10.0/CricEco.GroundDashboard.Domain.dll
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/bin/Debug/net10.0/CricEco.GroundDashboard.Application.pdb
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/bin/Debug/net10.0/CricEco.GroundDashboard.Domain.pdb
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/obj/Debug/net10.0/CricEco..8EFD1F79.Up2Date
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/obj/Debug/net10.0/CricEco.GroundDashboard.Infrastructure.dll
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/obj/Debug/net10.0/refint/CricEco.GroundDashboard.Infrastructure.dll
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/obj/Debug/net10.0/CricEco.GroundDashboard.Infrastructure.pdb
+/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/obj/Debug/net10.0/ref/CricEco.GroundDashboard.Infrastructure.dll

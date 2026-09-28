@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CricEco.GroundDashboard.Application/CricEco.GroundDashboard.Application.csproj" />
+    <Project Path="src/CricEco.GroundDashboard.Domain/CricEco.GroundDashboard.Domain.csproj" />
+    <Project Path="src/CricEco.GroundDashboard.Infrastructure/CricEco.GroundDashboard.Infrastructure.csproj" />
+    <Project Path="src/CricEco.GroundDashboard.Web/CricEco.GroundDashboard.Web.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,259 @@
+@page "/login"
+@layout EmptyLayout
+@using CricEco.GroundDashboard.Domain.Interfaces
+@using System.ComponentModel.DataAnnotations
+@inject IAuthService AuthService
+@inject NavigationManager Navigation
+@inject IJSRuntime JS
+@rendermode InteractiveServer
+
+<div class="min-h-screen grid grid-cols-1 lg:grid-cols-2">
+    <!-- Left Panel - Dark Green with Branding -->
+    <div class="bg-cricket-950 relative overflow-hidden flex flex-col justify-between p-8 lg:p-12">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <defs>
+                    <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+                        <circle cx="5" cy="5" r="1" fill="white"/>
+                    </pattern>
+                </defs>
+                <rect width="100" height="100" fill="url(#grid)"/>
+            </svg>
+        </div>
+
+        <!-- Logo -->
+        <div class="relative z-10 flex items-center gap-3">
+            <div class="w-10 h-10 bg-cricket-700 rounded-lg flex items-center justify-center">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                </svg>
+            </div>
+            <div>
+                <h1 class="text-white text-xl font-bold tracking-tight">CricEco</h1>
+                <p class="text-cricket-400 text-xs tracking-widest uppercase">Owner Console</p>
+            </div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="relative z-10 my-auto">
+            <h2 class="text-white text-4xl lg:text-5xl font-bold leading-tight mb-6 font-['Playfair_Display',serif]">
+                List your ground,<br />
+                fill every slot,<br />
+                get paid on time.
+            </h2>
+            <p class="text-cricket-200 text-sm lg:text-base leading-relaxed max-w-md">
+                Bookings, pricing, availability and payouts — manage every ground from one console, with every request tracked in real time.
+            </p>
+        </div>
+
+        <!-- Stats -->
+        <div class="relative z-10 flex gap-8 lg:gap-12">
+            <div>
+                <p class="text-white text-2xl lg:text-3xl font-bold">40,200+</p>
+                <p class="text-cricket-400 text-xs uppercase tracking-wider mt-1">Players</p>
+            </div>
+            <div>
+                <p class="text-white text-2xl lg:text-3xl font-bold">1,180+</p>
+                <p class="text-cricket-400 text-xs uppercase tracking-wider mt-1">Grounds</p>
+            </div>
+            <div>
+                <p class="text-white text-2xl lg:text-3xl font-bold">15,600+</p>
+                <p class="text-cricket-400 text-xs uppercase tracking-wider mt-1">Matches booked</p>
+            </div>
+        </div>
+
+        <!-- Footer Note -->
+        <p class="relative z-10 text-cricket-500 text-xs mt-8">
+            Interactive prototype - no live data or authentication
+        </p>
+    </div>
+
+    <!-- Right Panel - Login Form -->
+    <div class="bg-cricket-50 flex items-center justify-center p-8 lg:p-12">
+        <div class="w-full max-w-md">
+            <!-- Welcome Text -->
+            <div class="mb-8">
+                <h2 class="text-2xl font-bold text-gray-900 mb-2">Welcome back</h2>
+                <p class="text-gray-500 text-sm">Sign in to manage your grounds and bookings.</p>
+            </div>
+
+            <!-- Login Form -->
+            <EditForm Model="@loginModel" OnValidSubmit="HandleLogin" class="space-y-5">
+                <DataAnnotationsValidator />
+
+                <!-- Email Field -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-900 mb-2">Email or phone number</label>
+                    <InputText 
+                        @bind-Value="loginModel.Email"
+                        class="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-cricket-600 focus:border-transparent transition-all"
+                        placeholder="owner@criceco.pk" />
+                    <ValidationMessage For="@(() => loginModel.Email)" class="text-red-500 text-xs mt-1" />
+                </div>
+
+                <!-- Password Field -->
+                <div>
+                    <label class="block text-sm font-semibold text-gray-900 mb-2">Password</label>
+                    <div class="relative">
+                        <InputText 
+                            type="@passwordInputType"
+                            @bind-Value="loginModel.Password"
+                            class="w-full px-4 py-3 bg-white border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-cricket-600 focus:border-transparent transition-all pr-12"
+                            placeholder="••••••••" />
+                        <button 
+                            type="button"
+                            @onclick="TogglePasswordVisibility"
+                            class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 transition-colors">
+                            @if (showPassword)
+                            {
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M12 12v.01"/>
+                                </svg>
+                            }
+                            else
+                            {
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                                </svg>
+                            }
+                        </button>
+                    </div>
+                    <ValidationMessage For="@(() => loginModel.Password)" class="text-red-500 text-xs mt-1" />
+                </div>
+
+                <!-- Remember Me & Forgot Password -->
+                <div class="flex items-center justify-between">
+                    <label class="flex items-center gap-2 cursor-pointer">
+                        <InputCheckbox @bind-Value="loginModel.RememberMe" class="w-4 h-4 text-cricket-600 border-gray-300 rounded focus:ring-cricket-600" />
+                        <span class="text-sm text-gray-700">Remember me</span>
+                    </label>
+                    <a href="#" class="text-sm font-semibold text-cricket-700 hover:text-cricket-800 transition-colors">Forgot password?</a>
+                </div>
+
+                <!-- Error Message -->
+                @if (!string.IsNullOrEmpty(errorMessage))
+                {
+                    <div class="p-3 bg-red-50 border border-red-200 rounded-lg text-red-600 text-sm">
+                        @errorMessage
+                    </div>
+                }
+
+                <!-- Sign In Button -->
+                <button 
+                    type="submit"
+                    disabled="@isLoading"
+                    class="w-full bg-cricket-800 hover:bg-cricket-900 text-white font-semibold py-3 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed">
+                    @if (isLoading)
+                    {
+                        <svg class="animate-spin h-5 w-5" fill="none" viewBox="0 0 24 24">
+                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        <span>Signing in...</span>
+                    }
+                    else
+                    {
+                        <span>Sign in</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                        </svg>
+                    }
+                </button>
+            </EditForm>
+
+            <!-- Demo Account Card -->
+            <div class="mt-6 p-4 bg-cricket-100/50 border border-cricket-200 rounded-lg">
+                <p class="text-xs font-semibold text-cricket-800 uppercase tracking-wider mb-2">Prototype Demo Account</p>
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-sm font-medium text-gray-900">owner@criceco.pk · Owner@123</p>
+                    </div>
+                    <button 
+                        @onclick="UseDemoCredentials"
+                        type="button"
+                        class="text-sm font-semibold text-cricket-700 hover:text-cricket-800 underline underline-offset-2 transition-colors">
+                        Use demo credentials
+                    </button>
+                </div>
+            </div>
+
+            <!-- Create Account Link -->
+            <p class="mt-6 text-center text-sm text-gray-600">
+                New to CricEco? 
+                <a href="/signup" class="font-semibold text-cricket-700 hover:text-cricket-800 transition-colors">Create an account</a>
+            </p>
+
+            <!-- Verification Notice -->
+            <div class="mt-8 pt-6 border-t border-gray-200">
+                <div class="flex items-center justify-center gap-2 text-xs text-gray-500">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                    </svg>
+                    <span>New ground listings are verified before going live.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private LoginModel loginModel = new();
+    private bool isLoading = false;
+    private bool showPassword = false;
+    private string passwordInputType => showPassword ? "text" : "password";
+    private string? errorMessage;
+
+    private void TogglePasswordVisibility()
+    {
+        showPassword = !showPassword;
+    }
+
+    private void UseDemoCredentials()
+    {
+        loginModel.Email = "owner@criceco.pk";
+        loginModel.Password = "Owner@123";
+    }
+
+    private async Task HandleLogin()
+    {
+        isLoading = true;
+        errorMessage = null;
+
+        try
+        {
+            var result = await AuthService.SignInAsync(loginModel.Email, loginModel.Password);
+            
+            if (result.Succeeded)
+            {
+                Navigation.NavigateTo("/");
+            }
+            else
+            {
+                errorMessage = result.ErrorMessage ?? "Invalid email or password";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = "An error occurred. Please try again.";
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    public class LoginModel
+    {
+        [System.ComponentModel.DataAnnotations.Required(ErrorMessage = "Email is required")]
+        [System.ComponentModel.DataAnnotations.EmailAddress(ErrorMessage = "Please enter a valid email")]
+        public string Email { get; set; } = "";
+
+        [System.ComponentModel.DataAnnotations.Required(ErrorMessage = "Password is required")]
+        [System.ComponentModel.DataAnnotations.MinLength(6, ErrorMessage = "Password must be at least 6 characters")]
+        public string Password { get; set; } = "";
+
+        public bool RememberMe { get; set; } = true;
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "fR4zZ7DUNr8=",
+  "success": true,
+  "projectFilePath": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/CricEco.GroundDashboard.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/birdmessenger/4.0.0/birdmessenger.4.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.1.1/fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/mediatr/14.2.0/mediatr.14.2.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.8/microsoft.extensions.dependencyinjection.abstractions.10.0.8.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.8/microsoft.extensions.logging.abstractions.10.0.8.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.identitymodel.abstractions/8.14.0/microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.14.0/microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.identitymodel.logging/8.14.0/microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.identitymodel.tokens/8.14.0/microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.io.recyclablememorystream/3.0.1/microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/mimemapping/4.0.0/mimemapping.4.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/supabase/8.1.1/supabase.8.1.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/supabase.core/8.1.1/supabase.core.8.1.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/supabase.functions/8.1.1/supabase.functions.8.1.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/supabase.gotrue/8.1.1/supabase.gotrue.8.1.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/supabase.postgrest/8.1.1/supabase.postgrest.8.1.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/supabase.realtime/8.1.1/supabase.realtime.8.1.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/supabase.storage/8.1.1/supabase.storage.8.1.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.identitymodel.tokens.jwt/7.5.1/system.identitymodel.tokens.jwt.7.5.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.reactive/6.1.0/system.reactive.6.1.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/websocket.client/5.5.0/websocket.client.5.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

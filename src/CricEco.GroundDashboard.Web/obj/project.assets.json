@@ -791,11 +791,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Web/CricEco.GroundDashboard.Web.csproj",
+      "projectUniqueName": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Web/CricEco.GroundDashboard.Web.csproj",
       "projectName": "CricEco.GroundDashboard.Web",
-      "projectPath": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Web/CricEco.GroundDashboard.Web.csproj",
+      "projectPath": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Web/CricEco.GroundDashboard.Web.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Web/obj/",
+      "outputPath": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Web/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"
@@ -811,11 +811,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/CricEco.GroundDashboard.Application.csproj": {
-              "projectPath": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/CricEco.GroundDashboard.Application.csproj"
+            "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Application/CricEco.GroundDashboard.Application.csproj": {
+              "projectPath": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Application/CricEco.GroundDashboard.Application.csproj"
             },
-            "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/CricEco.GroundDashboard.Infrastructure.csproj": {
-              "projectPath": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/CricEco.GroundDashboard.Infrastructure.csproj"
+            "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Infrastructure/CricEco.GroundDashboard.Infrastructure.csproj": {
+              "projectPath": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Infrastructure/CricEco.GroundDashboard.Infrastructure.csproj"
             }
           }
         }

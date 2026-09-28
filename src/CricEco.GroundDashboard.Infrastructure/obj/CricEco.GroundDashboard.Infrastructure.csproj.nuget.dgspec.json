@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/CricEco.GroundDashboard.Infrastructure.csproj": {}
+    "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Infrastructure/CricEco.GroundDashboard.Infrastructure.csproj": {}
   },
   "projects": {
-    "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/CricEco.GroundDashboard.Application.csproj": {
+    "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Application/CricEco.GroundDashboard.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/CricEco.GroundDashboard.Application.csproj",
+        "projectUniqueName": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Application/CricEco.GroundDashboard.Application.csproj",
         "projectName": "CricEco.GroundDashboard.Application",
-        "projectPath": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/CricEco.GroundDashboard.Application.csproj",
+        "projectPath": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Application/CricEco.GroundDashboard.Application.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/obj/",
+        "outputPath": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
@@ -27,8 +27,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Domain/CricEco.GroundDashboard.Domain.csproj": {
-                "projectPath": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Domain/CricEco.GroundDashboard.Domain.csproj"
+              "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/CricEco.GroundDashboard.Domain.csproj": {
+                "projectPath": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/CricEco.GroundDashboard.Domain.csproj"
               }
             }
           }
@@ -357,14 +357,14 @@
         }
       }
     },
-    "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Domain/CricEco.GroundDashboard.Domain.csproj": {
+    "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/CricEco.GroundDashboard.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Domain/CricEco.GroundDashboard.Domain.csproj",
+        "projectUniqueName": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/CricEco.GroundDashboard.Domain.csproj",
         "projectName": "CricEco.GroundDashboard.Domain",
-        "projectPath": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Domain/CricEco.GroundDashboard.Domain.csproj",
+        "projectPath": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/CricEco.GroundDashboard.Domain.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Domain/obj/",
+        "outputPath": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
@@ -692,14 +692,14 @@
         }
       }
     },
-    "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/CricEco.GroundDashboard.Infrastructure.csproj": {
+    "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Infrastructure/CricEco.GroundDashboard.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/CricEco.GroundDashboard.Infrastructure.csproj",
+        "projectUniqueName": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Infrastructure/CricEco.GroundDashboard.Infrastructure.csproj",
         "projectName": "CricEco.GroundDashboard.Infrastructure",
-        "projectPath": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/CricEco.GroundDashboard.Infrastructure.csproj",
+        "projectPath": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Infrastructure/CricEco.GroundDashboard.Infrastructure.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Infrastructure/obj/",
+        "outputPath": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
@@ -715,8 +715,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/CricEco.GroundDashboard.Application.csproj": {
-                "projectPath": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Application/CricEco.GroundDashboard.Application.csproj"
+              "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Application/CricEco.GroundDashboard.Application.csproj": {
+                "projectPath": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Application/CricEco.GroundDashboard.Application.csproj"
               }
             }
           }

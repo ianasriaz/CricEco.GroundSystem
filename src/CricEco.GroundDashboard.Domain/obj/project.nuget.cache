@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kjhA4KgyIE4=",
+  "dgSpecHash": "YXm74cZB0hQ=",
   "success": true,
-  "projectFilePath": "/workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Domain/CricEco.GroundDashboard.Domain.csproj",
+  "projectFilePath": "/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/CricEco.GroundDashboard.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

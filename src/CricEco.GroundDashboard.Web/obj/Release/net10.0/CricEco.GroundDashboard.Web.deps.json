@@ -1,0 +1,495 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CricEco.GroundDashboard.Web/1.0.0": {
+        "dependencies": {
+          "CricEco.GroundDashboard.Application": "1.0.0",
+          "CricEco.GroundDashboard.Infrastructure": "1.0.0",
+          "Microsoft.AspNetCore.Components.WebAssembly.Server": "10.0.12"
+        },
+        "runtime": {
+          "CricEco.GroundDashboard.Web.dll": {}
+        }
+      },
+      "BirdMessenger/4.0.0": {
+        "runtime": {
+          "lib/net10.0/BirdMessenger.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "FluentValidation/12.1.1": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.1.1.0"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/12.1.1": {
+        "dependencies": {
+          "FluentValidation": "12.1.1"
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.1.1.0"
+          }
+        }
+      },
+      "MediatR/14.2.0": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1",
+          "Microsoft.IdentityModel.JsonWebTokens": "8.14.0"
+        },
+        "runtime": {
+          "lib/net10.0/MediatR.dll": {
+            "assemblyVersion": "14.0.0.0",
+            "fileVersion": "14.2.0.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.WebAssembly/10.0.12": {
+        "dependencies": {
+          "Microsoft.JSInterop.WebAssembly": "10.0.12"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.Components.WebAssembly.dll": {
+            "assemblyVersion": "10.0.12.0",
+            "fileVersion": "10.0.1226.42308"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.WebAssembly.Server/10.0.12": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly": "10.0.12"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll": {
+            "assemblyVersion": "10.0.12.0",
+            "fileVersion": "10.0.1226.42308"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/8.14.0": {
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "8.14.0.0",
+            "fileVersion": "8.14.0.60815"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/8.14.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "8.14.0"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "8.14.0.0",
+            "fileVersion": "8.14.0.60815"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/8.14.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "8.14.0"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "8.14.0.0",
+            "fileVersion": "8.14.0.60815"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/8.14.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "8.14.0"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "8.14.0.0",
+            "fileVersion": "8.14.0.60815"
+          }
+        }
+      },
+      "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+        "runtime": {
+          "lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "Microsoft.JSInterop.WebAssembly/10.0.12": {
+        "runtime": {
+          "lib/net10.0/Microsoft.JSInterop.WebAssembly.dll": {
+            "assemblyVersion": "10.0.12.0",
+            "fileVersion": "10.0.1226.42308"
+          }
+        }
+      },
+      "MimeMapping/4.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/MimeMapping.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Supabase/8.1.1": {
+        "dependencies": {
+          "Supabase.Core": "8.1.1",
+          "Supabase.Functions": "8.1.1",
+          "Supabase.Gotrue": "8.1.1",
+          "Supabase.Postgrest": "8.1.1",
+          "Supabase.Realtime": "8.1.1",
+          "Supabase.Storage": "8.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Supabase.dll": {
+            "assemblyVersion": "8.1.1.0",
+            "fileVersion": "8.1.1.0"
+          }
+        }
+      },
+      "Supabase.Core/8.1.1": {
+        "runtime": {
+          "lib/netstandard2.1/Supabase.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Supabase.Functions/8.1.1": {
+        "dependencies": {
+          "Supabase.Core": "8.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Supabase.Functions.dll": {
+            "assemblyVersion": "8.1.1.0",
+            "fileVersion": "8.1.1.0"
+          }
+        }
+      },
+      "Supabase.Gotrue/8.1.1": {
+        "dependencies": {
+          "Supabase.Core": "8.1.1",
+          "System.IdentityModel.Tokens.Jwt": "7.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Supabase.Gotrue.dll": {
+            "assemblyVersion": "8.1.1.0",
+            "fileVersion": "8.1.1.0"
+          }
+        }
+      },
+      "Supabase.Postgrest/8.1.1": {
+        "dependencies": {
+          "Supabase.Core": "8.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Supabase.Postgrest.dll": {
+            "assemblyVersion": "8.1.1.0",
+            "fileVersion": "8.1.1.0"
+          }
+        }
+      },
+      "Supabase.Realtime/8.1.1": {
+        "dependencies": {
+          "Supabase.Core": "8.1.1",
+          "Supabase.Postgrest": "8.1.1",
+          "Websocket.Client": "5.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Supabase.Realtime.dll": {
+            "assemblyVersion": "8.1.1.0",
+            "fileVersion": "8.1.1.0"
+          }
+        }
+      },
+      "Supabase.Storage/8.1.1": {
+        "dependencies": {
+          "BirdMessenger": "4.0.0",
+          "MimeMapping": "4.0.0",
+          "Supabase.Core": "8.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Supabase.Storage.dll": {
+            "assemblyVersion": "8.1.1.0",
+            "fileVersion": "8.1.1.0"
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/7.5.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.14.0",
+          "Microsoft.IdentityModel.Tokens": "8.14.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "7.5.1.0",
+            "fileVersion": "7.5.1.50405"
+          }
+        }
+      },
+      "System.Reactive/6.1.0": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.62682"
+          }
+        }
+      },
+      "Websocket.Client/5.5.0": {
+        "dependencies": {
+          "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
+          "System.Reactive": "6.1.0"
+        },
+        "runtime": {
+          "lib/net10.0/Websocket.Client.dll": {
+            "assemblyVersion": "5.5.0.0",
+            "fileVersion": "5.5.0.0"
+          }
+        }
+      },
+      "CricEco.GroundDashboard.Application/1.0.0": {
+        "dependencies": {
+          "CricEco.GroundDashboard.Domain": "1.0.0",
+          "FluentValidation": "12.1.1",
+          "FluentValidation.DependencyInjectionExtensions": "12.1.1",
+          "MediatR": "14.2.0"
+        },
+        "runtime": {
+          "CricEco.GroundDashboard.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CricEco.GroundDashboard.Domain/1.0.0": {
+        "runtime": {
+          "CricEco.GroundDashboard.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CricEco.GroundDashboard.Infrastructure/1.0.0": {
+        "dependencies": {
+          "CricEco.GroundDashboard.Application": "1.0.0",
+          "Supabase": "8.1.1"
+        },
+        "runtime": {
+          "CricEco.GroundDashboard.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CricEco.GroundDashboard.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BirdMessenger/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K92hTkTn8fkZOjoMi0j0ZhxJ/Ey8ra5nSxuwEc3gZJzT8gdRh6JSSUS6CV4+fyNcjdw1M37/nckubzyMvudvJw==",
+      "path": "birdmessenger/4.0.0",
+      "hashPath": "birdmessenger.4.0.0.nupkg.sha512"
+    },
+    "FluentValidation/12.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EPpkIe1yh1a0OXyC100oOA8WMbZvqUu5plwhvYcb7oSELfyUZzfxV48BLhvs3kKo4NwG7MGLNgy1RJiYtT8Dpw==",
+      "path": "fluentvalidation/12.1.1",
+      "hashPath": "fluentvalidation.12.1.1.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/12.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D0VXh4dtjjX2aQizuaa0g6R8X3U1JaVqJPfGCvLwZX9t/O2h7tkpbitbadQMfwcgSPdDbI2vDxuwRMv/Uf9dHA==",
+      "path": "fluentvalidation.dependencyinjectionextensions/12.1.1",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512"
+    },
+    "MediatR/14.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1vqNVS6ijU0IF78vDfIE99pi0iTa+M/1ztRlM98P+KL+Loi/O4knaR2+ex0AqbT5xBl01VFryjuYUAFtvGwzOQ==",
+      "path": "mediatr/14.2.0",
+      "hashPath": "mediatr.14.2.0.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.WebAssembly/10.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/IEbzyCnW0t+1ZQcxcV3Aj65gus2ILsUaA8U0rnkSGRQbKlJxr/5YOifOLq0eLrM0m3kXEV/A3iEwrqT3tgwiw==",
+      "path": "microsoft.aspnetcore.components.webassembly/10.0.12",
+      "hashPath": "microsoft.aspnetcore.components.webassembly.10.0.12.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.WebAssembly.Server/10.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G/+1rd0e/oUtEt8z08YSl5kbK1xzbYXN1AbhSmew9BK16yowT62agw/ty0EGFVlUT6zMqMRKTxEvDj8COmqebQ==",
+      "path": "microsoft.aspnetcore.components.webassembly.server/10.0.12",
+      "hashPath": "microsoft.aspnetcore.components.webassembly.server.10.0.12.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Abstractions/8.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iwbCpSjD3ehfTwBhtSNEtKPK0ICun6ov7Ibx6ISNA9bfwIyzI2Siwyi9eJFCJBwxowK9xcA1mj+jBWiigeqgcQ==",
+      "path": "microsoft.identitymodel.abstractions/8.14.0",
+      "hashPath": "microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/8.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4jOpiA4THdtpLyMdAb24dtj7+6GmvhOhxf5XHLYWmPKF8ApEnApal1UnJsKO4HxUWRXDA6C4WQVfYyqsRhpNpQ==",
+      "path": "microsoft.identitymodel.jsonwebtokens/8.14.0",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/8.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eqqnemdW38CKZEHS6diA50BV94QICozDZEvSrsvN3SJXUFwVB9gy+/oz76gldP7nZliA16IglXjXTCTdmU/Ejg==",
+      "path": "microsoft.identitymodel.logging/8.14.0",
+      "hashPath": "microsoft.identitymodel.logging.8.14.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/8.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lKIZiBiGd36k02TCdMHp1KlNWisyIvQxcYJvIkz7P4gSQ9zi8dgh6S5Grj8NNG7HWYIPfQymGyoZ6JB5d1Lo1g==",
+      "path": "microsoft.identitymodel.tokens/8.14.0",
+      "hashPath": "microsoft.identitymodel.tokens.8.14.0.nupkg.sha512"
+    },
+    "Microsoft.IO.RecyclableMemoryStream/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s/s20YTVY9r9TPfTrN5g8zPF1YhwxyqO6PxUkrYTGI2B+OGPe9AdajWZrLhFqXIvqIW23fnUE4+ztrUWNU1+9g==",
+      "path": "microsoft.io.recyclablememorystream/3.0.1",
+      "hashPath": "microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512"
+    },
+    "Microsoft.JSInterop.WebAssembly/10.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v8A9+3yOF6yD2nJzkDyINlkWxiB6ufCutO4Tgo3edn+CyI2WdstA8VzXy7sJrbtB+OaTfUZdaBET2JMMWuJyig==",
+      "path": "microsoft.jsinterop.webassembly/10.0.12",
+      "hashPath": "microsoft.jsinterop.webassembly.10.0.12.nupkg.sha512"
+    },
+    "MimeMapping/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5WK3+mjdCeCKg3znVr+sm/sikVnya7UOHWxt4vJeW+Tbp2GgdLiBLRFBJ91oDyL/NcDVd1sEelQ7ixIN68s33g==",
+      "path": "mimemapping/4.0.0",
+      "hashPath": "mimemapping.4.0.0.nupkg.sha512"
+    },
+    "Supabase/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fb0891SNCrBBatBfnPTYun4OEIqkyBgo2nM12YOh/fN3XGMtSksmDQqAiwfb0v/fMVgyxk6ZM2JYoCqyd/A5dQ==",
+      "path": "supabase/8.1.1",
+      "hashPath": "supabase.8.1.1.nupkg.sha512"
+    },
+    "Supabase.Core/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/4Dna5lc4wPkxjsjPOTUHMy6YhaXxJnAWZ3elCqqFB8DAqYDsovFa70o6QD50dXICmwdUwQEJZWLBcdlDuACKA==",
+      "path": "supabase.core/8.1.1",
+      "hashPath": "supabase.core.8.1.1.nupkg.sha512"
+    },
+    "Supabase.Functions/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O0jimOv8ngwU965OqJ+zmzv9dhZ+TEMlVjy5HQciu4Na0y6NNUXEBroGcHjkeRA16i0Jd0CijbDX9N1Hb5BoSw==",
+      "path": "supabase.functions/8.1.1",
+      "hashPath": "supabase.functions.8.1.1.nupkg.sha512"
+    },
+    "Supabase.Gotrue/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hKuYIlkC2KLxYH6P76njGoGZQH3QB++vN5PAfrMCDNDx4CXN0rbCFhEyG9hNEASlEnfE0Z6A7l1kiqQrEYhJMA==",
+      "path": "supabase.gotrue/8.1.1",
+      "hashPath": "supabase.gotrue.8.1.1.nupkg.sha512"
+    },
+    "Supabase.Postgrest/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TappEUgba7/CALocvVupdlf61voV7t/UtTMrmpJxSUGdKi05ujW56yQMZFrkLL7NL88Ew5cCXEK4WamERuc5qA==",
+      "path": "supabase.postgrest/8.1.1",
+      "hashPath": "supabase.postgrest.8.1.1.nupkg.sha512"
+    },
+    "Supabase.Realtime/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+WhyzHJVU0e8Q+R+FEqeLZxxuSeawkue8/LsqNYWMfNnge7KkCOLs1dMS3fEH8Qlq2q7x6bFAs3OQSlg5SCGoQ==",
+      "path": "supabase.realtime/8.1.1",
+      "hashPath": "supabase.realtime.8.1.1.nupkg.sha512"
+    },
+    "Supabase.Storage/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wavAAoF4PAsq1bAg6NkP3b6/Uj8dBvYjEwSIU28s323oQ/mjeHYeekuv2zbDc7kKRyJ3LGPjv7p2hUxM8ckT8w==",
+      "path": "supabase.storage/8.1.1",
+      "hashPath": "supabase.storage.8.1.1.nupkg.sha512"
+    },
+    "System.IdentityModel.Tokens.Jwt/7.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UUw+E0R73lZLlXgneYIJQxNs1kfbcxjVzw64JQyiwjqCd4HMpAbjn+xRo86QZT84uHq8/MkqvfH82tgjgPzpuw==",
+      "path": "system.identitymodel.tokens.jwt/7.5.1",
+      "hashPath": "system.identitymodel.tokens.jwt.7.5.1.nupkg.sha512"
+    },
+    "System.Reactive/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M5cCC1ZMkZr9jbSQGTHnVkb5TDN67qWCV7AP8TAHdGkvDlu0puT5NzemESNn9+HkYIDpWpocP68/i+/ame2/2w==",
+      "path": "system.reactive/6.1.0",
+      "hashPath": "system.reactive.6.1.0.nupkg.sha512"
+    },
+    "Websocket.Client/5.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xJ5pTXiNSfwOzJVFcrUF1JROo63zjETJgIA4+ik/JxOJdNEv15e3NZ6bgpNQkyWhapcedP5HCa96hn9YCXwenw==",
+      "path": "websocket.client/5.5.0",
+      "hashPath": "websocket.client.5.5.0.nupkg.sha512"
+    },
+    "CricEco.GroundDashboard.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CricEco.GroundDashboard.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CricEco.GroundDashboard.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

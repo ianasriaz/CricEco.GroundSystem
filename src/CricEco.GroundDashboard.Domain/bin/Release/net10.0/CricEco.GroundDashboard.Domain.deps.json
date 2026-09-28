@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CricEco.GroundDashboard.Domain/1.0.0": {
+        "runtime": {
+          "CricEco.GroundDashboard.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CricEco.GroundDashboard.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

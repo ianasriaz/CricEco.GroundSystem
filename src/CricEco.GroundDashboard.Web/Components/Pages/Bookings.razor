@@ -1,0 +1,57 @@
+@page "/bookings"
+@using CricEco.GroundDashboard.Application.DTOs
+@using CricEco.GroundDashboard.Application.Features.Bookings.Queries
+@using MediatR
+@inject IMediator Mediator
+@rendermode InteractiveServer
+
+<PageTitle>Bookings | CricEco</PageTitle>
+
+<div class="min-h-screen bg-slate-50 px-6 py-8 lg:px-10">
+    <div class="mx-auto max-w-7xl">
+        <div class="mb-8">
+            <p class="text-sm font-semibold uppercase tracking-[0.18em] text-emerald-700">Reservations</p>
+            <h1 class="mt-2 text-3xl font-bold tracking-tight text-slate-950">Bookings</h1>
+            <p class="mt-2 text-slate-500">Review requests and keep your schedule moving.</p>
+        </div>
+
+        <div class="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
+            <div class="overflow-x-auto">
+                <table class="w-full min-w-[720px] text-left text-sm">
+                    <thead class="border-b border-slate-100 bg-slate-50 text-xs uppercase tracking-wider text-slate-500">
+                        <tr><th class="px-6 py-4">Customer</th><th class="px-6 py-4">Ground</th><th class="px-6 py-4">Date & time</th><th class="px-6 py-4">Amount</th><th class="px-6 py-4">Status</th></tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-100">
+                        @if (bookings is null)
+                        {
+                            <tr><td colspan="5" class="px-6 py-8 text-center text-slate-500">Loading bookings...</td></tr>
+                        }
+                        else
+                        {
+                            @foreach (var booking in bookings.OrderByDescending(item => item.StartsAt))
+                            {
+                                <tr class="hover:bg-slate-50">
+                                    <td class="px-6 py-4 font-semibold text-slate-900">@booking.CustomerName</td>
+                                    <td class="px-6 py-4 text-slate-600">@booking.GroundName</td>
+                                    <td class="px-6 py-4 text-slate-600">@booking.StartsAt.ToLocalTime().ToString("dd MMM, h:mm tt")</td>
+                                    <td class="px-6 py-4 font-semibold text-slate-900">PKR @booking.TotalAmount:N0</td>
+                                    <td class="px-6 py-4"><span class="rounded-full bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-700">@booking.Status</span></td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private IEnumerable<BookingDto>? bookings;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var result = await Mediator.Send(new GetAllBookingsQuery());
+        bookings = result.Value ?? Enumerable.Empty<BookingDto>();
+    }
+}

@@ -1,20 +1,38 @@
 ﻿@inherits LayoutComponentBase
+@using CricEco.GroundDashboard.Domain.Interfaces
+@inject IAuthService AuthService
+@inject NavigationManager Navigation
 
 <div class="page">
     <div class="sidebar">
-        <NavMenu />
+        <NavMenu @rendermode="InteractiveServer" />
     </div>
 
     <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+        <div class="top-row px-4 justify-between">
+            <span class="text-sm font-semibold text-slate-700">Owner workspace</span>
+            <span class="text-sm text-slate-500">CricEco Owner Console</span>
         </div>
 
-        <article class="content px-4">
-            @Body
-        </article>
+        @if (isAuthorized)
+        {
+            <article class="content">
+                @Body
+            </article>
+        }
     </main>
 </div>
+
+@code {
+    private bool isAuthorized;
+
+    protected override async Task OnInitializedAsync()
+    {
+        isAuthorized = await AuthService.IsAuthenticatedAsync();
+        if (!isAuthorized)
+            Navigation.NavigateTo("/", forceLoad: true);
+    }
+}
 
 <div id="blazor-error-ui" data-nosnippet>
     An unhandled error has occurred.

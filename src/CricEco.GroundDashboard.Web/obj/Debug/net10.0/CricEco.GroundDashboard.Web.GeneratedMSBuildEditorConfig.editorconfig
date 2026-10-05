@@ -31,12 +31,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvRW1wdHlMYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Web/Components/Pages/Bookings.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Cb29raW5ncy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Web/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Web/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Web/Components/Pages/Grounds.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Hcm91bmRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Web/Components/Pages/Home.razor]
@@ -57,6 +65,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Web/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Web/Components/StatCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TdGF0Q2FyZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Web/Components/_Imports.razor]

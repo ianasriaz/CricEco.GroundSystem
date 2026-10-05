@@ -10,7 +10,7 @@ namespace CricEco.GroundDashboard.Infrastructure.Services;
 public class SupabaseAuthService : IAuthService
 {
     private readonly IGroundOwnerRepository _groundOwnerRepository;
-    private GroundOwner? _currentUser;
+    private static GroundOwner? _currentUser;
 
     // Demo credentials
     private const string DemoEmail = "owner@criceco.pk";

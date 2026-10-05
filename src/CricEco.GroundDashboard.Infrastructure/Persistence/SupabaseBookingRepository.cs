@@ -16,21 +16,21 @@ public class SupabaseBookingRepository : IBookingRepository
             DateTime.Now.AddHours(4),
             "Babar Azam (Captain)",
             "+92 300 8472910",
-            Guid.Parse("u1")),
+            Guid.Parse("11111111-1111-1111-1111-111111111111")),
         Booking.Create(
             Guid.Parse("e4b1a111-2222-3333-4444-555566667771"),
             DateTime.Now.AddHours(26),
             DateTime.Now.AddHours(28),
             "Shaheen Afridi (Captain)",
             "+92 321 5566778",
-            Guid.Parse("u2")),
+            Guid.Parse("22222222-2222-2222-2222-222222222222")),
         Booking.Create(
             Guid.Parse("e4b1a111-2222-3333-4444-555566667771"),
             DateTime.Now.AddHours(-3),
             DateTime.Now.AddHours(-1),
             "Mohammad Rizwan",
             "+92 333 4455667",
-            Guid.Parse("u3"))
+            Guid.Parse("33333333-3333-3333-3333-333333333333"))
     };
 
     static SupabaseBookingRepository()

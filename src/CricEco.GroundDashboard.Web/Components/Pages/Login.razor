@@ -1,3 +1,4 @@
+@page "/"
 @page "/login"
 @layout EmptyLayout
 @using CricEco.GroundDashboard.Domain.Interfaces
@@ -227,7 +228,7 @@
             
             if (result.Succeeded)
             {
-                Navigation.NavigateTo("/");
+                Navigation.NavigateTo("/dashboard");
             }
             else
             {

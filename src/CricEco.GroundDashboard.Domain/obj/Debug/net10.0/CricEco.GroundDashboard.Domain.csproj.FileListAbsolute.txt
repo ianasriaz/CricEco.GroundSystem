@@ -9,3 +9,15 @@
 /workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Domain/obj/Debug/net10.0/refint/CricEco.GroundDashboard.Domain.dll
 /workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Domain/obj/Debug/net10.0/CricEco.GroundDashboard.Domain.pdb
 /workspaces/CricEco.GroundDashboard/src/CricEco.GroundDashboard.Domain/obj/Debug/net10.0/ref/CricEco.GroundDashboard.Domain.dll
+/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/bin/Debug/net10.0/CricEco.GroundDashboard.Domain.deps.json
+/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/bin/Debug/net10.0/CricEco.GroundDashboard.Domain.dll
+/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/bin/Debug/net10.0/CricEco.GroundDashboard.Domain.pdb
+/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/obj/Debug/net10.0/CricEco.GroundDashboard.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/obj/Debug/net10.0/CricEco.GroundDashboard.Domain.AssemblyInfoInputs.cache
+/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/obj/Debug/net10.0/CricEco.GroundDashboard.Domain.AssemblyInfo.cs
+/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/obj/Debug/net10.0/CricEco.GroundDashboard.Domain.csproj.CoreCompileInputs.cache
+/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/obj/Debug/net10.0/CricEco.GroundDashboard.Domain.sourcelink.json
+/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/obj/Debug/net10.0/CricEco.GroundDashboard.Domain.dll
+/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/obj/Debug/net10.0/refint/CricEco.GroundDashboard.Domain.dll
+/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/obj/Debug/net10.0/CricEco.GroundDashboard.Domain.pdb
+/workspaces/CricEco.GroundSystem/src/CricEco.GroundDashboard.Domain/obj/Debug/net10.0/ref/CricEco.GroundDashboard.Domain.dll

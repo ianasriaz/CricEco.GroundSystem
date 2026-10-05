@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CricEco.GroundDashboard.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72866506a1fb6681b0f761338a7c3c6b913a32c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CricEco.GroundDashboard.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CricEco.GroundDashboard.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

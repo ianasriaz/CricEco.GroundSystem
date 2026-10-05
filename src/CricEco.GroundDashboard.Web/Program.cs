@@ -1,8 +1,15 @@
 using CricEco.GroundDashboard.Web.Components;
+using CricEco.GroundDashboard.Application;
+using CricEco.GroundDashboard.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddApplicationServices();
+builder.Services.AddInfrastructureServices(
+    builder.Configuration["Supabase:Url"] ?? "https://demo.supabase.co",
+    builder.Configuration["Supabase:Key"] ?? "demo-key");
+
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
